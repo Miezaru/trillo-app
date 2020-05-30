@@ -1,0 +1,13 @@
+# IntellijIdea files
+.idea/
+.DS_Store
+.vscode/
+node_modules
+.bashrc
+.eslintignore
+.eslintrc
+.jshintrc
+.prettierrc
+cssscomb.json
+gulpfile.js
+yarn.lock
