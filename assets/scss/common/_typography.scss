@@ -1,3 +1,7 @@
+/*====================*/
+/*     TYPOGRAPHY     */
+/*====================*/
+
 html {
   font-size: var(--font-size);
 }
@@ -7,4 +11,10 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-grey-dark-2);
+}
+
+.paragraph {
+  &:not(:last-of-type) {
+    margin-bottom: 2rem;
+  }
 }

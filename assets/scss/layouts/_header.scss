@@ -1,9 +1,12 @@
+/*================*/
+/*     HEADER     */
+/*================*/
+
 .header {
   font-size: 1.4rem;
-  font-weight: 700;
   height: 7rem;
   background-color: var(--color-white);
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
 
   display: flex;
   justify-content: space-between;
